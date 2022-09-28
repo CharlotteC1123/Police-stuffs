@@ -1,0 +1,146 @@
+
+
+h1{
+	text-align: center;
+	font-size: 35px;
+  font-family: verdana;
+  padding: 10px;
+  margin-top: .5rem;
+}
+
+.img {
+  display: inline;
+}
+
+h2{
+	font-size: 20px;
+	font-weight: bold;
+	font-family: verdana;
+}
+   
+a{ 
+	/* text-decoration: none; */
+	color: white;
+}
+
+p{
+	font-family: verdana;
+	font-size: 15px;
+}
+
+
+.slide-viewer{
+  position: relative;
+  overflow: hidden; 
+  margin: 0 auto;
+  width: 80%;
+  height: 500px;
+  border-radius: 15px;
+}
+
+.slide-group{
+  width:100%;
+  height: 100%;
+  position: relative;
+}
+
+.slide{
+  width: 100%;
+  height: 100%;
+  display: none;
+  position: absolute;
+}
+
+.slide:first-child{
+  display: block;
+}
+
+.box { 
+  background-color: #3489eb;
+  color: white;
+  border-radius: 15px;
+  padding: 20px;
+  font-size: 150%;
+  box-shadow: 0px 0px 5px;
+  font-family: calibri;
+  height: 160px;
+}
+
+.box:hover {
+  background-color: #186bd6;
+}
+
+.gridLayout {  
+    display: grid;  
+    grid-gap: 25px;  
+    grid-template-columns: repeat(auto, minmax(100px, 1fr));
+    grid-template-rows: repeat(2, 100px);  
+    margin: 0 auto;
+    width: 70%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+
+.item1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start:1;
+    grid-row-end: 3;
+}
+
+.item2{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.item3 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.item4 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    height: auto;
+}
+
+.item5{
+  background-color: #cc0000;
+   grid-column-start: 1;
+   grid-column-end: 1;
+   grid-row-start: 4;
+   grid-row-end: 10;
+}
+
+.item6{
+    background-color: #ff4d4d;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.item7{
+    background-color: #990000;
+    grid-column-start: 3;
+    grid-row-start: 4;
+   grid-row-start: 4;
+    grid-row-end: 10;
+}
+
+.item8{
+    background-color: #b30000;
+    grid-column-start: 2;
+       grid-row-start: 4;
+    grid-row-end: 10;
+}
+
+.item9{
+    background-color: #ff0000;
+    grid-column-start: 1;
+    grid-row-end: 4;
+}
